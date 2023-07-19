@@ -56,9 +56,12 @@
     </div>
     <hr>
     <div id="api_results">
-        <div class="block">Content</div>
-        <div class="block">Content</div>
-        <div class="block">Content</div>
+        <div class="block_container">
+            <div class="block">Content</div>
+            <div class="block">Content</div>
+            <div class="block">Content</div>
+        </div>
+
     </div>
 </body>
 
