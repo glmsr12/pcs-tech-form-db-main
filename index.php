@@ -79,7 +79,24 @@
 
     // window.alert("Hello World:)");
 
-    console.log("Hey you there! This is a console message!")
+    //console.log("Hey you there! This is a console message!")
+
+    var x = 10;
+    var y = 11;
+
+    // document.write(x * y);
+
+    var message = "The result is:";
+
+    // document.write(message);
+    document.write(message + " " + (x * y));
+
+    var auth = {
+        login: "jane@doe.com",
+        password: "1234"
+    }
+
+    document.write(auth);
     </script>
 </body>
 
