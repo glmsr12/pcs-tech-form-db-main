@@ -57,12 +57,30 @@
     <hr>
     <div id="api_results">
         <div class="block_container">
-            <div class="block">Content</div>
+            <div class="block" id="blockone">Content</div>
             <div class="block">Content</div>
             <div class="block">Content</div>
         </div>
 
     </div>
+    <script>
+    //Writing into an HTML element, using innerHTML
+    //First method
+    //document.getElementById("blockone").innerHTML = "Change the content";
+
+    //Second Method  
+    //var my_id = document.getElementById("blockone");
+    //my_element.innerHTML = "dsfdsfds";
+
+
+    //Writing into the HTML output 
+    //document.write("This is the message you need!");
+
+
+    // window.alert("Hello World:)");
+
+    console.log("Hey you there! This is a console message!")
+    </script>
 </body>
 
 </html>
