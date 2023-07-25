@@ -93,7 +93,7 @@ input[type='reset'] {
   padding: 12px 20px;
   margin: 8px 0;
   border: 1px solid darkgray;
-  -webkit-appearance: none;
+  --webkit-appearance: none;
 }
 
 .datefield {
@@ -129,8 +129,3 @@ input[type='reset'] {
 }
 
 /*Desktop screen*/
-
-@media (min-width: 900px) {
-  .block {
-  }
-}
