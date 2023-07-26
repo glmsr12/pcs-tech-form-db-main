@@ -72,12 +72,13 @@ input[type='number'] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  font-size: 1.5rem;
 }
 
 input[type='button'],
 input[type='submit'],
 input[type='reset'] {
-  background-color: #7cc87e;
+  background-color: #4ea551;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -86,6 +87,7 @@ input[type='reset'] {
   cursor: pointer;
   border-radius: 5px;
   width: 100%;
+  font-size: 1.7rem;
 }
 
 .select {
@@ -115,9 +117,6 @@ input[type='reset'] {
   justify-content: center;
 }
 
-#user_firstname {
-  font-size: 2.2rem;
-}
 /* Mobile screen*/
 
 @media (max-width: 600px) {
