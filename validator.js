@@ -92,4 +92,51 @@ function applicationSubmit() {
       errorText.style.display = 'none';
     }
   }
+
+  //Create array of strings and output values of this array to HTML content with an index of each value in the array using for loop.
+
+  // Step 1: Create an array of different elements
+  var mixedArray = [10, 'Hello', { name: 'John', age: 30 }, [1, 2, 3], true];
+
+  // Step 2: Use a for loop to iterate through the array
+  for (var i = 0; i < mixedArray.length; i++) {
+    // Step 3: Access the current element and its index
+    var element = mixedArray[i];
+
+    // Step 4: Create an HTML element to display the element along with its index
+    var displayText = i + ': ' + element;
+
+    // Step 5: Append the HTML element to the output container
+    var outputDiv = document.getElementById('outputContainer');
+    var paragraphElement = document.createElement('p');
+    paragraphElement.textContent = displayText;
+    outputDiv.appendChild(paragraphElement);
+  }
+
+  // Create variable of type number and convert the value to the type of string. Output value to the HTML.
+
+  // Step 1: Create a variable of type number
+  var myNumber = 42;
+
+  // Step 2: Convert the number to a string using the toString() method
+  var myString = myNumber.toString();
+
+  // Step 3: Output the converted value to the HTML
+  var outputDiv = document.getElementById('outputContainer');
+  var paragraphElement = document.createElement('p');
+  paragraphElement.textContent = 'Converted value: ' + myString;
+  outputDiv.appendChild(paragraphElement);
+  //Create variable of type string and convert the value to the type of number. Output value to the HTML.
+  // Step 1: Create a variable of type string
+  var myString = '42';
+
+  // Step 2: Convert the string to a number using the parseInt() or parseFloat() function
+  var myNumber = parseInt(myString); // Use parseInt() for integers
+  // var myNumber = parseFloat(myString); // Use parseFloat() for floating-point numbers
+
+  // Step 3: Output the converted value to the HTML
+  var outputDiv = document.getElementById('outputContainer');
+  var paragraphElement = document.createElement('p');
+  paragraphElement.textContent = 'Converted value: ' + myNumber;
+  outputDiv.appendChild(paragraphElement);
 }
